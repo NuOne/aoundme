@@ -1,7 +1,7 @@
 # aroundme
  i can see what you can see
  
- # Usage
+ # usage
  Clone it to you project folder
  git clone https://github.com/NuOne/aroundme.git
  
