@@ -82,13 +82,22 @@ function initMap() {
             service.getDetails({
                 placeId: place.place_id
             }, function(place, status) {
-                console.log(place);
+                var types = '';
+                var phone = '';
+                place.types.forEach(function (item,index){
+                    types += ' <span class="badge badge-success">'+item+'</span>';
+                });
+
+                if(place.formatted_phone_number){
+                    phone = '<span class="text-muted">Phone: '+place.formatted_phone_number+'.</span>';
+                }
+
                 if (status === google.maps.places.PlacesServiceStatus.OK) {
                     $('#infowindow-content').html(
                         '<div class="row featurette">' +
                         '<div class="col-md-12">' +
-                        '<h2 class="featurette-heading">'+place.name+'</h2>' +
-                        '<h3></h3><span class="text-muted">'+place.formatted_phone_number+'.</span>' +
+                        '<h2 class="featurette-heading">'+place.name+'</h2>' + types +
+                        '<h3></h3>' +phone +
                         '<p class="lead">' + place.formatted_address+'</p>'+
                         '</div>' +
                         '</div>' +
