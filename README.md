@@ -1,2 +1,2 @@
-# aoundme
+# aroundme
  i can see what you can see
