@@ -17,5 +17,5 @@ https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&librar
 Type the your location and select the google selecting place. Then you have list of nearby places. when you click on the marker icons you have more details.
 
 # next release
-we have to release "AroundMe" android mobile application. After the install mobile app you can share images(raod traffics,posters,banners,peoples,places...) with your location.
+we have to release "AroundMe" android mobile application. After the install mobile app you can share images(road  traffics,posters,banners,peoples,places...) with your location.
 We will display the latest image feed with locations. 
