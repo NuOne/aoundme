@@ -10,7 +10,8 @@
  https://developers.google.com/maps/documentation/javascript/get-api-key
  
  and substitute YOUR_API_KEY in the code from your key (index.html)
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places&sensor=false">
+https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places
+
 
 # how to use
 Type the your location and select the google selecting place. Then you have list of nearby places. when you click on the marker icons you have more details.
